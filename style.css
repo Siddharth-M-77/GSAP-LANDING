@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #181818;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+}
+
+nav h1 {
+    font-size: 3rem;
+    color: #E89B6D;
+}
+
+
+nav .nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+section{
+    display: flex;
+    margin-top: 2rem;
+    height: 80%;
+    width: 100%;
+    padding: 1rem 4rem;
+    justify-content: space-between;
+}
+section .left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+section .left h1{
+    font-size: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+section .left h1 .k{
+    color: orangered;
+}
+section .left p{
+    font-size: 1rem;
+    margin-bottom: 3rem;
+    line-height: 1.7;
+}
+section .left button{
+background-color:#E89B6D;
+padding: 1rem 2rem;
+border: none;
+color: black;
+border-radius: 4px;
+font-size: 16px;
+}
+section .right {
+ height: 100%;
+ width: 45%;
+}
+section .right img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+}
